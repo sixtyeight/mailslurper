@@ -20,6 +20,7 @@ RUN apk add --no-cache ca-certificates \
   "wwwPort": 8080,\n\
   "serviceAddress": "0.0.0.0",\n\
   "servicePort": 8085,\n\
+  "serviceURL": "",\n\
   "smtpAddress": "0.0.0.0",\n\
   "smtpPort": 2500,\n\
   "dbEngine": "SQLite",\n\
@@ -28,6 +29,7 @@ RUN apk add --no-cache ca-certificates \
   "dbDatabase": "./mailslurper.db",\n\
   "dbUserName": "",\n\
   "dbPassword": "",\n\
+  "dbEphemeral": true,\n\
   "maxWorkers": 1000,\n\
   "autoStartBrowser": false,\n\
   "keyFile": "",\n\
